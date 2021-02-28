@@ -1,20 +1,41 @@
-# Psu Mit Web Dev
+# Todo App
 
-## โปรแกรมที่ต้องติดตั้ง
+## 1. Server
 
-### 1. NodeJS
+### 1.1 Install
 
-- [ดาวน์โหลด](https://nodejs.org/en/)
+```bash 
+$ cd ./server
+$ npm install
+```
 
-### 2. VSCode
+### 1,2 Config
 
-- [ดาวน์โหลด](https://code.visualstudio.com/)
+กำหนดค่าที่ไฟล์ [./server/config.js](./server/config.js)
 
-### 3. Git
+### 1.3 Run Server
 
-- [ดาวน์โหลด window](https://git-scm.com/)
-- [ดาวน์โหลด mac](https://git-scm.com/download/mac)
-- [ดาวน์โหลด linux](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+```bash
+$ npm start
+```
 
-### 4. Postman
-- [ดาวน์โหลด](https://www.postman.com/downloads/)
+### 1.4 Run Parse Dashboard
+
+```bash
+$ npm run parse-dashboard
+```
+
+## 2. Client
+
+### 1.1 Install
+
+```bash 
+$ cd ./client
+$ npm install
+```
+
+### 1.2 Run Server
+
+```bash
+$ npm start
+```
